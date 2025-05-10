@@ -94,3 +94,19 @@ footer {
         font-size: 0.8em;
     }
 }
+
+.swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background: #a83279;
+    /* Optional: custom color */
+    opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #a83279;
+    /* Optional: make active bullet standout */
+    transform: scale(1.3);
+    /* Optional: slightly enlarge active bullet */
+}

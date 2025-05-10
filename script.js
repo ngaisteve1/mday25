@@ -3,7 +3,8 @@ const swiper = new Swiper('.swiper', {
     autoplay: {
         delay: 5000, // default delay for all slides after the first
         disableOnInteraction: false
-    }
+    },
+
 });
 
 // Pause autoplay at start
@@ -13,4 +14,4 @@ swiper.autoplay.stop();
 setTimeout(() => {
     swiper.slideNext();           // go to second slide
     swiper.autoplay.start();      // resume autoplay
-}, 30000); // 10 seconds
+}, 5000); // 10 seconds
